@@ -1,12 +1,8 @@
-## Setup
+## Overview
 
-The web client is built using React, as suggested by the prompt. The server uses the Flask Python framework. I use React to build a set of static files and then serve those static files as well as my server endpoints on the Flask server.
+The web client is built using React framework, as suggested by the prompt. The server uses the Flask Python framework. I use React to build a set of static files and then serve those static files and my server endpoints on the Flask server.
 
 ## How to test
-
-In the project directory, you can run:
-
-### `flask run`
 
 If you want to run the entire app without any changes, you can do so in a virtual Python environment.
 
@@ -16,7 +12,11 @@ Once it's activated, use `flask run` to run the Flask server.
 
 Then open [http://localhost:3000](http://localhost:5000) to view in the browser.
 
-If you want to make changes to the server, you can make them to the `server` files and save. The app will hot reload, which means the changes will automatically be reflected in the app without losing state! 
+## How to make changes
+
+### No command needed
+
+If you want to make changes to the server, you can make them to the `server` directory and save. The app will hot reload, which means the changes will automatically be reflected in the app without losing state.
 
 ### `npm start`
 
