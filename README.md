@@ -1,4 +1,4 @@
-## About Setup
+## Setup
 
 The web client is built using React, as suggested by the prompt. The server uses the Flask Python framework. I use React to build a set of static files and then serve those static files as well as my server endpoints on the Flask server.
 
