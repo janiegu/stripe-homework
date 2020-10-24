@@ -14,11 +14,13 @@ Then open [http://localhost:3000](http://localhost:5000) to view in the browser.
 
 ## How to make changes
 
-### No command needed
+### Server
 
 If you want to make changes to the server, you can make them to the `server` directory and save. The app will hot reload, which means the changes will automatically be reflected in the app without losing state.
 
-### `npm start`
+### Client
+
+#### `npm start`
 
 If you want to make changes to the web client, you can make them to the `src` files.
 
@@ -27,7 +29,7 @@ Use this command to enter development mode. Then open [http://localhost:3000](ht
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm run build`
+#### `npm run build`
 
 Once you're done making changes, run this command to build the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
